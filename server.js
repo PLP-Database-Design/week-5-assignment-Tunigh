@@ -1,6 +1,6 @@
 
 const http = require('http'); // Built-in module for creating HTTP servers
-const mysql = require('mysql'); // MySQL library for database interaction
+const mysql = require('mysql2'); // MySQL library for database interaction
 require('.env').config();
 const express = require('express')
 const app = express()
